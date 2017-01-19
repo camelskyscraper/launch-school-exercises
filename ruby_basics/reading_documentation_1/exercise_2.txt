@@ -1,0 +1,11 @@
+Exercise: Locate the description of the while loop in the ruby documentation.
+
+Answer:
+On the Control Expressions page:
+https://ruby-doc.org/core-2.4.0/doc/syntax/control_expressions_rdoc.html#label-while+Loop
+
+There is also a tutorial about while loops:
+http://ruby-doc.org/docs/Tutorial/part_02/while.html
+
+Discussion:
+The "control expressions" page is where you will find discussions of most language features that control code flow: conditionals (if, unless, case), basic looping (while, until, for), loop termination (break, next), and several other features of the language.

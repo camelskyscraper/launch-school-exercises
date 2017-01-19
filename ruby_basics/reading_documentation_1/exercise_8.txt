@@ -1,0 +1,10 @@
+Exercise:
+Lets move on now to the documentation you will use most often; the core API section on Classes and Modules. All of these are listed under Classes on the Core API page.
+
+Locate and open the class documentation for the String class.
+
+Answer:
+Click the Core link at the top of the page, then String under Classes:
+https://ruby-doc.org/core-2.4.0/String.html
+
+Didn't notice the filter textbox before.

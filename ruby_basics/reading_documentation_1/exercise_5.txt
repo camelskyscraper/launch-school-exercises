@@ -1,0 +1,13 @@
+Exercise:
+Using the ruby documentation, determine how you can write large numbers in a way that makes them easier to read.
+
+Answer:
+Source: https://ruby-doc.org/core-2.4.0/doc/syntax/literals_rdoc.html#label-Numbers
+On the Literals page.
+Looks like 123E6 would push the decimal point six places right, equalling 123,000,000.
+So that's more compact, but not easier to read.
+(The opposite direction is 123e-6, equaling 0.000123)
+Underscores can be used to visually break up numbers, e.g.
+123_456 = 123,456
+The underscore can be placed anywhere in the number (not just where a comma might be used). The underscores are simply stripped out.
+

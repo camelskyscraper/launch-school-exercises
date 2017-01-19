@@ -1,0 +1,16 @@
+Exercise:
+Using the ruby documentation, determine how you would write a Symbol that represents your name. We aren't looking for a String; we want a Symbol, which is one of ruby's datatypes.
+
+Answer:
+:"Kirk Roberts"
+:kirk_roberts
+:Kirk
+"Kirk Roberts".to_sym
+source: https://ruby-doc.org/core-2.4.0/Symbol.html
+
+Discussion:
+https://ruby-doc.org/core-2.4.0/doc/syntax/literals_rdoc.html#label-Symbols
+A symbol represents a name inside the ruby interpreter.
+
+Interpolation is legal:
+:"MyNameIs#{'Kirk' + 'Roberts'}"
